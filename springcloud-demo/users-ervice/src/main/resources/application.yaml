@@ -1,0 +1,17 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: user-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8082/eureka
+
+#mybatis的配置
+mybatis:
+  #mapper-locations: mapper/*Mapper.xml
+  type-aliases-package: com.itcast.pojo
+  configuration:
+    map-underscore-to-camel-case: false
