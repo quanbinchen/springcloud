@@ -30,7 +30,7 @@
         <!-- SpringCloud版本，是最新的F系列 -->
         <spring-cloud.version>Finchley.RC1</spring-cloud.version>
         <mapper.starter.version>2.0.3</mapper.starter.version>
-        <mysql.version>5.1.32</mysql.version>
+        <mysql.version>8.0.16</mysql.version>
     </properties>
 
     <!--版本管理：子工程用时，需要引入-->
